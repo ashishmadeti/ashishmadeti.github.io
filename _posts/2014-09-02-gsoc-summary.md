@@ -25,8 +25,6 @@ Following was my course of action to complete the project:
    - It maintains a list of tracks in a media player by listening for signals of Tracklist interface
    - For each track a new command is created (or deleted when the track is removed) with the track's title as trigger (as shown in the snapshot)
    - When a user says the name of a track, a command with that name is triggered and a [GoTo method call](http://specifications.freedesktop.org/mpris-spec/latest/Track_List_Interface.html#Method:GoTo) is used to play that particular song
-   
-    ![Advanced Simon Plug-in](/images/advancedSimonPlugin.png)
     
 5. Created a [Simon scenario](https://userbase.kde.org/Simon/Scenarios) based on English HUB4 SPHINX model using the plug-in mentioned in (4) so that the user need not setup the commands manually. [Download](http://opendesktop.org/content/show.php/%5BEN%2BH4W%5D+Media+Player+Control?content=166763) the scenario, import it in Simon and you can control your favourite MPRIS media player (read PMC ;) ).
 
